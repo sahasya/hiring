@@ -1,37 +1,15 @@
-## Welcome to GitHub Pages
+**Linear Regression**
+Linear regression attempts to model the relationship between two variables by fitting a linear equation to observed data. ... A linear regression line has an equation of the form **Y = a + bX**, where 'X' is the explanatory variable,'Y' is the dependent variable ,'b' is slope and 'a' is the intercept.
 
-You can use the [editor on GitHub](https://github.com/sahasya/hiring/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+**Multiple Linear Regression**
+Multiple regression is an extension of simple linear regression. It is used when we want to predict the value of a variable based on the value of two or more other variables. The variable we want to predict is called the dependent variable (or sometimes, the outcome, target or criterion variable).
+A multiple linear regression model with k predictor variables X1, X2, ..., Xk
+and a response Y , can be written as
+**y = β0 + β1x1 + β2x2 + ··· βkxk + c**
+As before, the 'c' are the residual terms of the model and the distribution assumption we place on the residuals will allow us later to do inference on the remaining model parameters. Interpret the meaning of the regression coefficients
+β0, β1, β2, ..., βk in this model.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+**Uses**
+If the goal is prediction, forecasting, or error reduction,linear regression can be used to fit a predictive model to an observed data set of values of the response and explanatory variables.
+If the goal is to explain variation in the response variable that can be attributed to variation in the explanatory variables, linear regression analysis can be applied to quantify the strength of the relationship between the response and the explanatory variables, and in particular to determine whether some explanatory variables may have no linear relationship with the response at all, or to identify which subsets of explanatory variables may contain redundant information about the response.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sahasya/hiring/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
